@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moshood | Developer Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+    header {
+      background: linear-gradient(135deg, #1f6feb, #388bfd);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+    nav {
+      background: #161b22;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: #388bfd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: #fff; }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      border-left: 4px solid #1f6feb;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .about p { line-height: 1.8; color: #c9d1d9; }
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .tag {
+      background: #1f6feb22;
+      border: 1px solid #1f6feb;
+      color: #388bfd;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .card h3 { color: #388bfd; margin-bottom: 8px; }
+    .card p { color: #8b949e; font-size: 0.9rem; line-height: 1.6; }
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      color: #1f6feb;
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #8b949e;
+      font-size: 0.85rem;
+      border-top: 1px solid #21262d;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Moshood 👋</h1>
+    <p>History graduate turned aspiring developer. Building tools for crypto, agriculture, governance & daily life. One line of code at a time. 💻🌾</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm Moshood — a history graduate, researcher, and writer who fell in love with technology. I'm currently on a journey to become a full developer, building useful tools and fun apps along the way. I believe the best technology solves real problems for real people.</p>
+  </section>
+
+  <section id="interests">
+    <h2>What I'm Building For</h2>
+    <div class="interests">
+      <span class="tag">🌾 Agriculture</span>
+      <span class="tag">💰 Crypto & Finance</span>
+      <span class="tag">🏛️ Governance</span>
+      <span class="tag">🛠️ Public Service Tools</span>
+      <span class="tag">📱 Everyday Life Apps</span>
+      <span class="tag">🔗 Web3</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>🏦 Crypto Banking Site</h3>
+        <p>A crypto banking and investment platform. Built as part of my learning journey on Replit.</p>
+        <a href="#">Coming Soon</a>
+      </div>
+      <div class="card">
+        <h3>🌱 More Coming Soon</h3>
+        <p>Currently learning and building. New projects in crypto, agriculture and governance dropping soon!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p style="color:#c9d1d9; line-height:1.8;">
+      I'm open to collaborations, opportunities and conversations about tech, farming and the future.<br><br>
+      📧 <a href="mailto:youremail@gmail.com" style="color:#388bfd;">youremail@gmail.com</a><br>
+      🐙 <a href="https://github.com/swankyaxe" style="color:#388bfd;" target="_blank">github.com/swankyaxe</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Moshood | Built with curiosity & code 🚀</p>
+  </footer>
+
+</body>
+</html>
